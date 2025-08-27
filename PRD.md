@@ -2,6 +2,10 @@
 
 Scope: Single‑player, client‑only browser game with no server interaction; fully playable offline after initial load
 
+Development Guidelines:
+
+- Avoid TypeScript enums; use union types or objects instead.
+
 1. Vision, Goals, and Non‑Goals
 
 - Vision: A cozy, care‑and‑explore digital pet that fits into short sessions yet supports long‑term engagement through collections, activities, and calendar events.

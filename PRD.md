@@ -377,5 +377,5 @@ Development Guidelines:
 
 25. Technical Notes (Non‑binding)
 
-- IndexedDB for state; tick‑driven autosave.
+- localStorage for state with tick‑driven autosave.
 - Deterministic RNG seeds for debugging encounters.

@@ -4,3 +4,4 @@ export * from './inventory';
 export * from './time';
 export * from './world';
 export * from './meta';
+export type { SpeciesId } from '../data/species';

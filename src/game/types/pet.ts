@@ -1,3 +1,5 @@
+import type { SpeciesId } from '../data/species';
+
 export type PetRarity = 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
 
 export type GrowthStage = 'hatchling' | 'juvenile' | 'adult';
@@ -33,7 +35,7 @@ export interface Injury {
 
 export interface Pet {
   /** Identifier for the species */
-  speciesId: string;
+  speciesId: SpeciesId;
   rarity: PetRarity;
   stage: GrowthStage;
   state: PetState;

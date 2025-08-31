@@ -1,4 +1,6 @@
+import type { LocationId } from '../data/locations';
+
 export interface WorldState {
-  location: string;
+  location: LocationId;
   event?: { id: string; progress: number };
 }
